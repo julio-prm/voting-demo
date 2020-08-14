@@ -11,7 +11,7 @@ import sys
 
 optionA = "Dev"
 optionB = "Ops"
-name = optionA + " VS " + optionB
+name = optionA + " VS contra " + optionB
 
 redis = Redis(host="redis", db=0)
 app = Flask(__name__)
